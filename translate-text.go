@@ -10,8 +10,8 @@ import (
 )
 
 const port = "8080"
-const subscriptionKeyEnvVar = "COGNITIVE_TRANSLATOR_TEXT_SUBSCRIPTION_KEY"
-const endpointEnvVar = "COGNITIVE_TRANSLATOR_API_BASE_ENDPOINT"
+const subscriptionKeyEnvVar = "7930b3bdf7054d3a9cb3964493e0af20"
+const endpointEnvVar = "https://zqctranslator.cognitiveservices.azure.com/sts/v1.0/issuetoken"
 const endpointSuffix = "/translate?api-version=3.0"
 const subscriptionKeyHeader = "Ocp-Apim-Subscription-Key"
 const translateRoute = "/translate-text"
